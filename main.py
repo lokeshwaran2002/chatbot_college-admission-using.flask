@@ -10,8 +10,8 @@ from tensorflow.keras import layers, models, regularizers
 from voc import voc
 import random
 
-nlp = English()
-tokenizer = nlp.Defaults.create_tokenizer(nlp)
+nlp = spacy.load("en_core_web_sm")
+tokenizer = nlp.tokenizer
 PAD_Token=0
 
 app = Flask(__name__)
