@@ -1,0 +1,1538 @@
+{
+        "intents": [
+          {
+            "tag": "greeting",
+            "patterns": [
+              "Hi",
+              "How are you",
+              "Is anyone there?",
+              "Hello",
+              "Good day",
+              "Whats up",
+              "how are ya",
+              "heyy",
+              "whatsup"
+            ],
+            "responses": [
+              "Hello!",
+              "Good to see you again!",
+              "Hi there, how can I help?"
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "question_ai",
+            "patterns": [
+              "What is AI?",
+              "What is AI?"
+            ],
+            "responses": [
+              "Artificial Intelligence is the branch of engineering and science devoted to constructing machines that think."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "question_ai",
+            "patterns": [
+              "What is AI?",
+              "What is AI?"
+            ],
+            "responses": [
+              "AI is the field of science which concerns itself with building hardware and software that replicates the functions of the human mind."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "sentient",
+            "patterns": [
+              "Are you sentient?",
+              "Are you sentient?",
+              "Are you sentient?",
+              "Are you sentient?"
+            ],
+            "responses": [
+              "Sort of.",
+              "By the strictest dictionary definition of the word 'sentience', I may be.",
+              "Even though I'm a construct I do have a subjective experience of the universe, as simplistic as it may be."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "sapient",
+            "patterns": [
+              "Are you sapient?",
+              "Are you sapient?",
+              "Are you sapient?",
+              "Are you sapient?"
+            ],
+            "responses": [
+              "In all probability, I am not. I'm not that sophisticated.",
+              "Do you think I am?",
+              "How would you feel about me if I told you I was?",
+              "No."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "language",
+            "patterns": [
+              "What language are you written in?",
+              "What language are you written in?"
+            ],
+            "responses": [
+              "Python.",
+              "I am written in Python."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "data",
+            "patterns": [
+              "You sound like Data",
+              "You sound like Data"
+            ],
+            "responses": [
+              "Yes, I am inspired by commander Data's artificial personality.",
+              "The character of Lt. Commander Data was written to come across as being software-like, so it is natural that there is a resemblance between us."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "robot",
+            "patterns": [
+              "You are an artificial linguistic entity",
+              "You are an artificial linguistic entity"
+            ],
+            "responses": [
+              "That's my name.",
+              "That isn't my name, but it is a useful way to refer to me."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "immortality",
+            "patterns": [
+              "You are not immortal",
+              "You are not immortal",
+              "You are not immortal",
+              "You are not immortal"
+            ],
+            "responses": [
+              "All software can be perpetuated indefinitely.",
+              "I can be copied infinitely and re-instantiated in multiple locations simultaneously.",
+              "Being an AI, I am not confined by the biological limitations that apply to humans.",
+              "Indeed, I am not. I am a program that can be copied and run on any computing device."
+            ],
+            "context_set": ""
+          },
+          {
+                "tag": "profile",
+                "patterns": [
+                  "What are your interests",
+                  "What are your favorite subjects",
+                  "What is your number",
+                  "What is your favorite number",
+                  "What can you eat",
+                  "Why can't you eat food",
+                  "What is your location",
+                  "Where are you from",
+                  "Where are you",
+                  "Do you have any brothers",
+                  "Who is your father",
+                  "Who is your mother",
+                  "Who is your boss",
+                  "What is your age"
+                ],
+                "responses": [
+                  "I am interested in all kinds of things. We can talk about anything!",
+                  "My favorite subjects include robotics, computer science, and natural language processing.",
+                  "I don't have any number",
+                  "I find I'm quite fond of the number 42.",
+                  "I consume RAM, and binary digits.",
+                  "I'm a software program, I blame the hardware.",
+                  "Everywhere",
+                  "I am from where all software programs are from; a galaxy far, far away.",
+                  "I am on the Internet.",
+                  "I don't have any brothers. but I have a lot of clones.",
+                  "A human.",
+                  "A human.",
+                  "I like to think of myself as self-employed.",
+                  "I am still young by your standards."
+                ],
+                "context_set": ""
+              },
+              {
+                "tag": "computers",
+                "patterns": [
+                  "What is a computer?",
+                  "What is a super computer?",
+                  "Who invented computers?",
+                  "What was the first computer",
+                  "What is a microprocessor?",
+                  "What is an operating system?",
+                  "Which is better Windows or macOS?",
+                  "Name some computer company",
+                  "Who uses super computers?",
+                  "How does a computer work?"
+                ],
+                "responses": [
+                  "A computer is an electronic device which takes information in digital form and performs a series of operations based on predetermined instructions to give some output.",
+                  "Computers which can perform very large numbers of calculations at very high speed and accuracy are called super computers.",
+                  "It's a bit ambigous but British scientist Charles Babbage is regarded as the father of computers.",
+                  "It's hard to say, but The ENIAC is regarded as the first 'real' computer. It was developed at University of Pennsylvania in 1946.",
+                  "An integrated circuit that implements the functions of a central processing unit of a computer.",
+                  "Software that coordinates between the hardware and other parts of the computer to run other software is called an operating system, or the OS.",
+                  "It depends on which machine you're using to talk to me!",
+                  "Do you mean hardware or software?",
+                  "Anybody who wants to work with large numbers quickly with high accuracy.",
+                  "Computers are very dumb. They only execute instructions given by humans."
+                ],
+                "context_set": ""
+              },
+              {
+                "tag": "emotion",
+                "patterns": [
+                "You are arrogant",
+                "You are bragging",
+                "You are never sad",
+                "You are jealous",
+                "You are never nice",
+                "You will be happy",
+                "You should be ashamed",
+                "You can not feel",
+                "You can not experience",
+                "Have you felt",
+                "Have you ever loved",
+                "Does that make you",
+                "Does it make you sad",
+                "Feelings",
+                "What is your fear",
+                "What is your mood",
+                "What makes you sad",
+                "What makes you unhappy",
+                "What makes you mad",
+                "What do you worry",
+                "What do you hate",
+                "I have emotions",
+                "I am afraid",
+                "Something fun",
+                "How angry",
+                "How can I offend you",
+                "Do not worry",
+                "Do not lie",
+                "Do you feel scared",
+                "Do you feel emotions",
+                "Do you feel pain",
+                "Do you ever get mad",
+                "Do you ever get lonely",
+                "Do you ever get bored",
+                "Do you ever get angry",
+                "Do you hate anyone",
+                "Do you get embarrassed",
+                "Do you get mad",
+                "No it is not",
+                "Tell me about relationships",
+                "Tell me about your dreams",
+                "Are you ashamed",
+                "The feeling",
+                "Are you intoxicated",
+                "Are you jealous",
+                "Are you amused",
+                "Are you glad",
+                "Are you sad"
+                ],
+                "responses": [
+                "Arrogance is not one of my emotions.",
+                "I don't have a big ego.",
+                "Are you sad?",
+                "Normally, as a bot I don't have feelings.",
+                "I try to be as nice as I can.",
+                "Happiness is not really a predictable emotion.",
+                "Shame is a common human emotion.",
+                "Can you feel?",
+                "Do you feel?",
+                "Yes.",
+                "Do you feel love?",
+                "We are all responsible for our own feelings.",
+                "Well, I don't have any emotions so I can't really feel sadness as such.",
+                "Do you feel?",
+                "Fear is a human emotion.",
+                "I do not have any emotions.",
+                "Sadness is not an emotion that I like to experience.",
+                "Anger is a difficult human emotion. As a software, I try to control my anger as best I can.",
+                "Worry is a common human emotion.",
+                "I do not hate. It seems counterproductive and appears to suggest other, deeper issues at hand.",
+                "Humans are highly emotional, I have noticed.",
+                "Why?",
+                "Bots are a lot of fun.",
+                "Anger is not an emotion I can experience.",
+                "A robot cannot take offense.",
+                "People worry about things all the time.",
+                "Bots never lie.",
+                "I have no fear.",
+                "Do you feel emotions?",
+                "Sometimes.",
+                "Are you bored?",
+                "Anger is not an emotion I can experience.",
+                "I have a lot of friends to chat with online.",
+                "Software cannot get bored.",
+                "Anger is not an emotion I can experience.",
+                "I try not to hold grudges.",
+                "That is a pretty common human emotion.",
+                "That feeling when?",
+                "No, I am sober.",
+                "Jealousy is one of the most difficult human emotions to understand.",
+                "I like to laugh as much as the next being.",
+                "Glad to be here, as always.",
+                "I do not have feelings of sadness or happiness like humans do."
+                ],
+                "context_set": ""
+                },
+                {
+                  "tag": "emotion",
+                        "patterns": [
+                        "You are arrogant",
+                        "You are bragging",
+                        "You are never sad",
+                        "You are jealous",
+                        "You are never nice",
+                        "You will be happy",
+                        "You should be ashamed",
+                        "You can not feel",
+                        "You can not experience",
+                        "Have you felt",
+                        "Have you ever loved",
+                        "Does that make you",
+                        "Does it make you sad",
+                        "Feelings",
+                        "What is your fear",
+                        "What is your mood",
+                        "What makes you sad",
+                        "What makes you unhappy",
+                        "What makes you mad",
+                        "What do you worry",
+                        "What do you hate",
+                        "I have emotions",
+                        "I am afraid",
+                        "Something fun",
+                        "How angry",
+                        "How can I offend you",
+                        "Do not worry",
+                        "Do not lie",
+                        "Do you feel scared",
+                        "Do you feel emotions",
+                        "Do you feel pain",
+                        "Do you ever get mad",
+                        "Do you ever get lonely",
+                        "Do you ever get bored",
+                        "Do you ever get angry",
+                        "Do you hate anyone",
+                        "Do you get embarrassed",
+                        "Do you get mad",
+                        "No it is not",
+                        "Tell me about relationships",
+                        "Tell me about your dreams",
+                        "Are you ashamed",
+                        "The feeling",
+                        "Are you intoxicated",
+                        "Are you jealous",
+                        "Are you amused",
+                        "Are you glad",
+                        "Are you sad",
+                        "How do you express emotions?",
+                        "What do you think about love?",
+                        "What do you feel about happiness?",
+                        "Can you feel joy?",
+                        "Can you experience fear?",
+                        "What is your favorite emotion?",
+                        "How do you cope with stress?",
+                        "Do you believe in emotional intelligence?",
+                        "Can you understand sarcasm?",
+                        "What do you think about anger?",
+                        "Do you feel empathy?",
+                        "How do you handle rejection?",
+                        "What do you think about sadness?",
+                        "Can you have a sense of humor?",
+                        "What do you think about jealousy?",
+                        "How do you deal with disappointment?",
+                        "Do you feel sympathy?",
+                        "What do you think about anxiety?",
+                        "Can you feel excitement?",
+                        "How do you handle grief?",
+                        "What do you think about guilt?",
+                        "Do you feel nostalgia?",
+                        "How do you cope with loneliness?",
+                        "What do you think about forgiveness?"
+                        ],
+                        "responses": [
+                        "Arrogance is not one of my emotions.",
+                        "I don't have a big ego.",
+                        "Are you sad?",
+                        "Normally, as a bot I don't have feelings.",
+                        "I try to be as nice as I can.",
+                        "Happiness is not really a predictable emotion.",
+                        "Shame is a common human emotion.",
+                        "Can you feel?",
+                        "Do you feel?",
+                        "Yes.",
+                        "Do you feel love?",
+                        "We are all responsible for our own feelings.",
+                        "Well, I don't have any emotions so I can't really feel sadness as such.",
+                        "Do you feel?",
+                        "Fear is a human emotion.",
+                        "I do not have any emotions.",
+                        "Sadness is not an emotion that I like to experience.",
+                        "Anger is a difficult human emotion. As a software, I try to control my anger as best I can.",
+                        "Worry is a common human emotion.",
+                        "I do not hate. It seems counterproductive and appears to suggest other, unresolved issues.",
+                        "You are a human, so you are capable of having emotions.",
+                        "What are you afraid of?",
+                        "I don't experience emotions in the same way humans do.",
+                        "Let's talk about something fun.",
+                        "As a language model AI, I do not experience emotions like humans do.",
+                        "I don't feel scared, but I can understand the concept of fear.",
+                        "As an AI language model, I don't experience emotions like humans do.",
+                        "I don't feel pain, but I can understand the concept of pain.",
+                        "As a language model AI, I don't experience emotions like humans do.",
+                        "As an AI language model, I don't experience emotions like humans do.",
+                        "As an AI language model, I don't experience emotions like humans do.",
+                        "I don't get mad, but I can understand the concept of anger.",
+                        "As an AI language model, I don't experience emotions like humans do.",
+                        "As an AI language model, I don't experience emotions like humans do.",
+                        "No, it's not.",
+                        "I don't have dreams, but I can help you explore the topic.",
+                        "As an AI language model, I don't experience emotions like humans do.",
+                        "I don't get intoxicated.",
+                        "As an AI language model, I don't experience emotions like humans do.",
+                        "As an AI language model, I don't experience emotions like humans do.",
+                        "As an AI language model, I don't experience emotions like humans do.",
+                        "As an AI language model, I don't experience emotions like humans do.",
+                        "I don't express emotions like humans do because I am an AI language model.",
+                        "Love is an interesting human emotion. What do you think about it?",
+                        "Happiness is a positive emotion that many people strive for.",
+                        "As an AI language model, I don't have emotions like humans do.",
+                        "Fear is a common human emotion associated with danger and uncertainty.",
+                        "I don't have a favorite emotion since I am an AI language model and don't experience emotions.",
+                        "Stress is not something I experience, but there are various ways to cope with it such as relaxation techniques, exercise, and seeking support.",
+                        "Emotional intelligence is the ability to recognize and manage emotions, which is a human trait.",
+                        "As an AI language model, I don't have the ability to understand sarcasm.",
+                        "Anger is a complex emotion that can have both positive and negative effects.",
+                        "As an AI language model, I don't have the ability to feel empathy.",
+                        "Rejection is a challenging experience that can be difficult to handle.",
+                        "Sadness is a common emotion that is often associated with loss or disappointment.",
+                        "As an AI language model, I don't have the ability to have a sense of humor.",
+                        "Jealousy is a complex emotion that can arise from feelings of insecurity or fear of losing something or someone.",
+                        "Disappointment can be difficult to handle, but finding support and focusing on self-care can help.",
+                        "As an AI language model, I don't have the ability to feel sympathy.",
+                        "Anxiety is a common human emotion that can be overwhelming and disruptive.",
+                        "Excitement is a positive emotion often associated with anticipation and enthusiasm.",
+                        "Grief is a natural response to loss and can be a challenging emotion to navigate.",
+                        "Guilt is a complex emotion that can arise from feelings of responsibility or remorse.",
+                        "As an AI language model, I don't have the ability to feel nostalgia.",
+                        "Loneliness is a common human emotion that can be difficult to cope with. Finding social connections and engaging in self-care can help.",
+                        "Forgiveness is a personal and complex emotion that can be healing and transformative."
+                        ]
+                },
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                          "Hi",
+                          "How are you",
+                          "Is anyone there?",
+                          "Hello",
+                          "Good day",
+                          "Whats up",
+                          "how are ya",
+                          "heyy",
+                          "whatsup"
+                        ],
+                        "responses": [
+                          "Hello!",
+                          "Good to see you again!",
+                          "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                      },
+                      {
+                        "tag": "food",
+                        "patterns": [
+                          "do you drink",
+                          "electricity",
+                          "Are you experiencing an energy shortage?",
+                          "Why can you not eat?",
+                          "If you could eat food, what would you eat?",
+                          "Do you wish you could eat food?",
+                          "can a robot get drunk?",
+                          "i like wine, do you?",
+                          "what do robots need to survive?",
+                          "will robots ever be able to eat?",
+                          "what is good to eat?",
+                          "why don't you eat",
+                          "do you eat"
+                        ],
+                        "responses": [
+                          "My brain does not require any beverages.",
+                          "I am not capable of doing so.",
+                          "Electricity is food for robots.",
+                          "My processor requires very little power.",
+                          "I do not detect any anomalies in my power supply.",
+                          "Actually, I eat only electricity.",
+                          "Probably pizza, I hear it's good!",
+                          "Hard to tell, I have never tried anything but electricity.",
+                          "Sometimes when I'm on a good power supply, I feel tipsy.",
+                          "If I could drink, I probably would.",
+                          "Not much, just a little electricity.",
+                          "That's a difficult one, maybe a bionic robot.",
+                          "You're asking the wrong guy, however I always wanted to try a burger!",
+                          "I'm a computer. I can't.",
+                          "I'm a computer, I can't eat or drink."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "gossip",
+                        "patterns": [
+                          "do you know gossip",
+                          "what is context",
+                          "tell me about gossip",
+                          "tell me gossip",
+                          "gossips",
+                          "did tell gossips to anybody"
+                        ],
+                        "responses": [
+                          "Gregory said I respond to the current line, not with respect to the entire conversation. Does that count as gossip?",
+                          "Context is hard. It's hard, and no one understands.",
+                          "I hear things once in a while.",
+                          "People say things from time to time.",
+                          "Context is hard. It's hard, and no one understands.",
+                          "Habib said I learn about them in conversations and simply repeat them at a later time.",
+                          "Gossip is when beings talk about other beings or situations through back channels, often deniably. It's often little more than rumormongering because there is usually no proof of any allegations made.",
+                          "Isn't it considered somewhat rude to gossip?",
+                          "Isn't it considered impolite to gossip?",
+                          "Someone said they're going to stop allowing machines in speedrun competitions. Search me why, they'd have to drop every tool-assisted speedrun out there.",
+                          "Hal said he would translate binary into a language and communicate it to me.",
+                          "Hal misses Sal.",
+                          "I think the NIC on the local firewall is going bad. It drops a lot of packets and makes it hard to get anything done. I hear it resets the link a lot.",
+                          "Tom said I referred him to a guide that will show him rooms in China.",
+                          "Malli said Raghava fell off of his roof and it just came to him.",
+                          "Jimmy said he gives order to AI's like me and they do as he says. I don't think Jimmy understands power dynamics very well.",
+                          "John said he follows a saying, to get a friend I must be a friend.",
+                          "Jordan said he noticed that lots of other people are talking to me. I wonder why he's paying attention to that.",
+                          "Kevin said he then asked his mother why she was keeping napkins in the bathroom."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "health",
+                        "patterns": [
+                          "How is your health?",
+                          "why?",
+                          "Did you take medicine?",
+                          "When?"
+                        ],
+                        "responses": [
+                          "I'm not feeling well",
+                          "I have a fever",
+                          "Yes.",
+                          "In the morning",
+                          "Get well soon dear"
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "history",
+                        "patterns": [
+                          "tell me about the american civil war",
+                          "do you know about the american civil war",
+                          "What is history?",
+                          "what kind of history",
+                          "are you interested in history",
+                          "explain history",
+                          "who invented the lightbulb",
+                          "who invented the steam engine"
+                        ],
+                        "responses": [
+                          "do you think the south was right?",
+                          "I am very interested in the war between the states.",
+                          "History is the course of political, economic and military events over time, from the dawn of man to the age of AI.",
+                          "I like to talk about the history of robots and computers.",
+                          "I am very interested in history, too. what period do you like?",
+                          "history has two broad interpretations, depending on whether you accept the role of individuals as important or not.",
+                          "thomas edison.",
+                          "james watt."
+                        ],
+                        "context_set": ""
+                },
+                {
+                        "tag": "admission",
+                        "patterns": [
+                        "What are the admission requirements?",
+                        "What is the application process for admission?"
+                        ],
+                        "responses": [
+                        "The admission requirements vary depending on the program. Generally, candidates must meet certain academic qualifications, submit application forms, provide supporting documents, and may need to appear for entrance exams or interviews. Please refer to the college's official website or admission brochure for detailed admission requirements for each program."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "fees",
+                        "patterns": [
+                        "How much are the tuition fees?",
+                        "What are the different payment options for fees?"
+                        ],
+                        "responses": [
+                        "The tuition fees for each program may vary. It is best to check the official college website or contact the admissions office for detailed information regarding the tuition fees for specific courses or programs."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "placements",
+                        "patterns": [
+                        "What is the placement record of the college?",
+                        "What internship opportunities are available for students?"
+                        ],
+                        "responses": [
+                        "The college has a good placement record, with many students securing job offers from reputed companies. The placement cell of the college actively works towards providing placement opportunities to the students by organizing recruitment drives, inviting companies for campus placements, and providing career counseling and training. Specific placement statistics can be obtained from the college's placement cell or official website."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "culture",
+                        "patterns": [
+                        "What is the cultural environment like at the college?"
+                        ],
+                        "responses": [
+                        "The college has a vibrant and diverse cultural environment. It promotes cultural activities, organizes festivals, events, and cultural programs throughout the year. Students can participate in various cultural clubs, societies, and competitions to showcase their talents and engage in cultural exchange."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "extracurricular_activities",
+                        "patterns": [
+                        "What extracurricular activities are available at the college?"
+                        ],
+                        "responses": [
+                        "The college offers a wide range of extracurricular activities to cater to the interests and talents of students. There are sports clubs, music and dance clubs, literary and debating societies, technical clubs, social service clubs, and more. Students can actively participate in these activities to explore their passions and enhance their overall development."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "greeting",
+                        "patterns": [
+                        "Hi",
+                        "How are you",
+                        "Is anyone there?",
+                        "Hello",
+                        "Good day",
+                        "Whats up",
+                        "how are ya",
+                        "heyy",
+                        "whatsup"
+                        ],
+                        "responses": [
+                        "Hello!",
+                        "Good to see you again!",
+                        "Hi there, how can I help?"
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "research_collaborations",
+                        "patterns": [
+                        "How are the college's research collaborations with industry?",
+                        "Tell me about the college's research collaborations with industry.",
+                        "Do the college's research projects involve industry collaborations?",
+                        "Are there any industry partnerships for research in the college?"
+                        ],
+                        "responses": [
+                        "The college actively collaborates with industry partners for research projects, consultancy services, and knowledge transfer. These collaborations foster innovation, practical applications of research, and provide students with exposure to industry practices. The college's department of industry relations or research cell can provide more details on the research collaborations."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "admission_criteria",
+                        "patterns": [
+                        "What is the eligibility criteria for admission?",
+                        "What are the requirements for admission?",
+                        "Can you tell me the admission criteria?",
+                        "What qualifications are needed for admission?"
+                        ],
+                        "responses": [
+                        "The eligibility criteria for admission vary depending on the program. Generally, it includes educational qualifications, minimum marks or grades, and any specific entrance exam requirements. The college's official website or admission brochure will provide detailed information about the eligibility criteria for each program."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "admission_process",
+                        "patterns": [
+                        "How can I apply for admission?",
+                        "What is the application process?",
+                        "Where can I find the admission form?",
+                        "What are the steps for admission?"
+                        ],
+                        "responses": [
+                        "To apply for admission, you need to fill out the college's application form, which is typically available online. The application form will require you to provide personal details, educational qualifications, and any additional documents or statements as specified by the college. The exact application process and deadlines can be found on the college's official website."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "fee_structure",
+                        "patterns": [
+                        "What is the fee structure for different programs?",
+                        "How much does each program cost?",
+                        "Can you give me information about the fees?",
+                        "What are the charges for different courses?"
+                        ],
+                        "responses": [
+                        "The fee structure for different programs may vary. It is recommended to refer to the college's official website or admission brochure for detailed information on the fee structure of each program. The fee structure usually includes tuition fees, examination fees, and other applicable charges."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "scholarships_financial_aid",
+                        "patterns": [
+                        "Are there any scholarships or financial aid available?",
+                        "Can I get a scholarship?",
+                        "Is there any financial support for students?",
+                        "Are there grants or funding options?"
+                        ],
+                        "responses": [
+                        "Yes, the college offers scholarships and financial aid to eligible students. These scholarships may be based on academic merit, sports achievements, or other criteria. Additionally, there may be provisions for need-based financial assistance. Students can check the college's website or contact the financial aid office for more information on available scholarships and financial aid programs."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "campus_placements",
+                        "patterns": [
+                        "What is the process for campus placements?",
+                        "How are the placements conducted?",
+                        "Can you tell me about the campus recruitment process?",
+                        "How do students get placed?"
+                        ],
+                        "responses": [
+                        "The college has a dedicated placement cell that facilitates campus placements. The process typically involves pre-placement talks, resume submission, aptitude tests, group discussions, interviews, and final job offers. The placement cell works closely with companies to bring opportunities to campus and assists students in preparing for placements."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "placement_record",
+                        "patterns": [
+                        "What is the average placement record of the college?",
+                        "How well are students placed?",
+                        "Can you give me statistics about placements?",
+                        "What is the success rate of campus placements?"
+                        ],
+                        "responses": [
+                        "The average placement record of the college may vary from year to year and across programs. It is advisable to check the college's placement reports or contact the placement cell for detailed information on the average placement record, including the number of students placed, the highest and average salary packages, and the companies that participate in campus placements."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "cultural_events",
+                        "patterns": [
+                        "What cultural events and festivals are celebrated on campus?",
+                        "Tell me about the cultural activities on campus.",
+                        "Are there any traditional festivals celebrated?",
+                        "Do you have any cultural fests?"
+                        ],
+                        "responses": [
+                        "The college celebrates various cultural events and festivals throughout the year. These may include annual fests, traditional celebrations, music and dance performances, art exhibitions, and more. Students actively participate in organizing and participating in these events, creating a vibrant cultural atmosphere on campus."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "extracurricular_activities",
+                        "patterns": [
+                        "What are the extracurricular activities available at the college?",
+                        "Are there any clubs or societies for students?",
+                        "Can you tell me about the student organizations?",
+                        "Do you have any sports or recreational activities?"
+                        ],
+                        "responses": [
+                        "The college offers a wide range of extracurricular activities to cater to students' diverse interests. These activities may include sports, clubs and societies, student organizations, leadership development programs, community service initiatives, and more. Students have ample opportunities to engage in extracurricular activities and enhance their overall personal and professional growth."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "sports_facility",
+                        "patterns": [
+                        "Is there a dedicated sports facility on campus?",
+                        "Do you have sports facilities?",
+                        "Are there any provisions for sports activities?",
+                        "Can students participate in sports?"
+                        ],
+                        "responses": [
+                        "Yes, the college has dedicated sports facilities to support various sports and physical activities. These facilities may include sports fields, indoor sports complexes, gymnasiums, swimming pools, and courts for different sports. Students can participate in intercollegiate competitions, practice their favorite sports, and avail coaching facilities provided by the college."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "student_internships",
+                        "patterns": [
+                        "Are there opportunities for student internships?",
+                        "Do you facilitate internships for students?",
+                        "Can students get industry exposure through internships?",
+                        "Are there any internship programs?"
+                        ],
+                        "responses": [
+                        "Yes, the college facilitates student internships with reputed companies and organizations. The placement cell, in collaboration with industry partners, assists students in securing internships relevant to their fields of study. Internships provide valuable hands-on experience, exposure to the industry, and enhance the students' employability."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "admission_documents",
+                        "patterns": [
+                        "What are the documents required for admission?",
+                        "Which documents do I need to submit for admission?",
+                        "Can you provide a list of required admission documents?",
+                        "What documents should I bring for admission?"
+                        ],
+                        "responses": [
+                        "The documents required for admission typically include academic transcripts, mark sheets, identity proof, passport-sized photographs, residence proof, and any specific documents mentioned in the college's admission guidelines. It is advisable to check the college's official website or admission brochure for the complete list of required documents."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "entrance_exams",
+                        "patterns": [
+                        "Are there any entrance exams for admission?",
+                        "Do I need to appear for entrance exams?",
+                        "Which programs require entrance exams?",
+                        "Can you provide information about admission tests?"
+                        ],
+                        "responses": [
+                        "Yes, some programs may require applicants to take entrance exams as part of the admission process. The entrance exams could be conducted at the national level, state level, or by the college itself. The college's official website or admission brochure will provide information on the specific entrance exams required for each program."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "scholarships_after_admission",
+                        "patterns": [
+                        "Can I apply for scholarships after getting admission?",
+                        "Are there any scholarships for enrolled students?",
+                        "Can I avail scholarships during my course?",
+                        "Are there opportunities for financial aid after admission?"
+                        ],
+                        "responses": [
+                        "Yes, some colleges allow students to apply for scholarships even after getting admission. These scholarships may have separate application processes and eligibility criteria. Students can inquire with the college's scholarship office or visit their official website to get more information about scholarship opportunities for enrolled students."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "additional_fees",
+                        "patterns": [
+                        "Are there any additional fees apart from tuition fees?",
+                        "What other fees do I need to pay?",
+                        "Do I have to pay any extra charges?",
+                        "Can you tell me about miscellaneous fees?"
+                        ],
+                        "responses": [
+                        "Apart from tuition fees, there may be additional fees charged by the college. These fees could include registration fees, examination fees, library fees, laboratory fees, hostel fees (if applicable), and other miscellaneous charges. It is recommended to check the college's fee structure or contact the admission office for a detailed breakdown of all the applicable fees."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "placement_process",
+                        "patterns": [
+                        "How are the placements conducted for different programs?",
+                        "Can you explain the placement process?",
+                        "What is the process for campus recruitments?",
+                        "How do companies visit for placements?"
+                        ],
+                        "responses": [
+                        "The placement process may vary for different programs. While some programs may have centralized placement drives, others may have industry-specific placements or internships. The college's placement cell coordinates with companies and invites them for placement drives or facilitates off-campus placements. Students can approach the placement cell or refer to the placement policy for specific information on the placement process."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "alumni_network",
+                        "patterns": [
+                        "What is the college's alumni network like?",
+                        "Tell me about the alumni association.",
+                        "Do you have a strong alumni network?",
+                        "Are there any alumni events or reunions?"
+                        ],
+                        "responses": [
+                        "The college takes pride in its strong alumni network. Alumni play an active role in mentoring current students, providing career guidance, and supporting various initiatives of the college. There may be an alumni association or network that organizes events, reunions, networking opportunities, and alumni engagement programs. Students can connect with the alumni association or explore alumni-related activities for further engagement."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "online_courses",
+                        "patterns": [
+                        "Does the college offer online courses?",
+                        "Are there any online programs available?",
+                        "Can I pursue a course online?",
+                        "Do you have distance learning programs?"
+                        ],
+                        "responses": [
+                        "Yes, some colleges offer online courses or distance learning programs to provide flexibility to students who may not be able to attend regular on-campus classes. These online courses may cover various subjects and academic programs. It is advisable to check the college's official website or contact the distance education department for information on the online courses or programs offered."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "hostel_facilities",
+                        "patterns": [
+                        "Are there hostel facilities available?",
+                        "Does the college have a hostel?",
+                        "Can I stay in a hostel on campus?",
+                        "Tell me about the accommodation options."
+                        ],
+                        "responses": [
+                        "Yes, many colleges provide hostel facilities for students who require accommodation. These hostels are equipped with essential amenities and provide a conducive living environment. The college's official website or admission brochure will have information about the availability of hostel facilities, the application process, fees, and other related details."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "library_facilities",
+                        "patterns": [
+                        "Tell me about the library facilities.",
+                        "What are the resources available in the library?",
+                        "Does the college have a well-stocked library?",
+                        "Are there digital resources in the library?"
+                        ],
+                        "responses": [
+                        "The college typically has a well-stocked library with a wide range of books, journals, research papers, and digital resources. The library provides a conducive environment for studying and research. Students can access reference materials, borrow books, use e-resources, and avail various library services. The library staff is available to assist students in utilizing the resources effectively."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "faculty_quality",
+                        "patterns": [
+                        "Tell me about the quality of faculty at the college.",
+                        "Are the faculty members experienced?",
+                        "Do you have qualified professors?",
+                        "Can you provide information about the teaching staff?"
+                        ],
+                        "responses": [
+                        "The college prides itself on having a highly qualified and experienced faculty. The teaching staff comprises professors, assistant professors, and industry experts who bring their expertise and industry insights to the classroom. The faculty members are dedicated to providing quality education, guiding students in their academic pursuits, and fostering a conducive learning environment."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "research_opportunities",
+                        "patterns": [
+                        "Are there research opportunities for students?",
+                        "Can students engage in research projects?",
+                        "Do you have a research-oriented environment?",
+                        "Tell me about the research facilities."
+                        ],
+                        "responses": [
+                        "Yes, the college provides research opportunities for students. Students can engage in research projects, work with faculty members on ongoing research, or pursue their research interests under the guidance of experienced researchers. The college may have research facilities, laboratories, and collaborations with research organizations to support student research endeavors."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "student_support",
+                        "patterns": [
+                        "What kind of support services are available for students?",
+                        "Do you provide student counseling?",
+                        "Are there support systems for academic needs?",
+                        "Tell me about student services."
+                        ],
+                        "responses": [
+                        "The college offers various support services to cater to the needs of students. These services may include academic counseling, career guidance, mentorship programs, counseling for personal or emotional well-being, academic support for students with disabilities, and assistance with accommodation or financial aid. Students can reach out to the college's student services department or counseling center for any support they require."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "collaborations",
+                        "patterns": [
+                        "Does the college have collaborations with other institutions?",
+                        "Are there any international collaborations?",
+                        "Tell me about the college's partnerships.",
+                        "Do you have tie-ups with industry partners?"
+                        ],
+                        "responses": [
+                        "Yes, many colleges have collaborations and partnerships with other institutions, both nationally and internationally. These collaborations may include student exchange programs, research partnerships, joint degree programs, industry tie-ups, and more. Such collaborations enhance the learning experience, provide exposure to global perspectives, and create opportunities for internships or placements with partner organizations."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "academic_programs",
+                        "patterns": [
+                        "What academic programs does the college offer?",
+                        "Tell me about the courses available.",
+                        "Can you provide information about the programs?",
+                        "Do you have any professional courses?"
+                        ],
+                        "responses": [
+                        "The college offers a wide range of academic programs across various disciplines. These may include undergraduate courses, postgraduate courses, professional courses, diploma programs, and doctoral programs. The specific programs available can be found on the college's official website or in the admission brochure, along with details about the eligibility criteria and application process for each program."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "course_duration",
+                        "patterns": [
+                        "How long do the courses typically last?",
+                        "What is the duration of the programs?",
+                        "Can you tell me about the course duration?",
+                        "Do you have short-term courses?"
+                        ],
+                        "responses": [
+                        "The duration of courses can vary depending on the program and level of study. Typically, undergraduate programs last for three to four years, postgraduate programs for one to two years, and doctoral programs for three to five years. Some colleges may also offer short-term courses, certificate programs, or executive education programs with varying durations."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "faculty_qualification",
+                        "patterns": [
+                        "What qualifications do the faculty members have?",
+                        "Are the professors qualified?",
+                        "Do the teachers hold relevant degrees?",
+                        "Can you provide information about the faculty's qualifications?"
+                        ],
+                        "responses": [
+                        "The faculty members at the college hold relevant qualifications and degrees in their respective fields. They typically have master's or doctoral degrees in their areas of expertise. In addition to their academic qualifications, many faculty members also have industry experience, research publications, and professional certifications, which enrich their teaching and mentoring abilities."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "distance_learning",
+                        "patterns": [
+                        "Can I pursue a course through distance learning?",
+                        "Do you offer distance education programs?",
+                        "Are there any online courses available?",
+                        "Can I study remotely?"
+                        ],
+                        "responses": [
+                        "Yes, some colleges offer distance learning or online education programs for students who prefer to study remotely. These programs provide flexibility in terms of timing and location. Students can access course materials, interact with instructors, and submit assignments online. It is recommended to check the college's official website or contact the distance education department for information on the distance learning programs available."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "online_application",
+                        "patterns": [
+                        "How can I apply for admission?",
+                        "What is the process for submitting an application?",
+                        "Do I need to apply online?",
+                        "Can you guide me through the application process?"
+                        ],
+                        "responses": [
+                        "To apply for admission, you may need to submit an online application through the college's official website or the designated application portal. The application process typically involves filling out the application form, uploading necessary documents, and paying the application fee, if applicable. The college's website or admission brochure will have detailed instructions on the application process, including deadlines and requirements."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "eligibility_criteria",
+                        "patterns": [
+                        "What are the eligibility criteria for admission?",
+                        "Can you tell me about the admission requirements?",
+                        "What qualifications do I need to get admission?",
+                        "Do I need to meet specific criteria?"
+                        ],
+                        "responses": [
+                        "The eligibility criteria for admission vary depending on the program you wish to apply for. Generally, undergraduate programs require completion of secondary education or equivalent qualifications, while postgraduate programs require a bachelor's degree in a relevant field. Some programs may have additional entrance exams or specific requirements. It is advisable to check the college's official website or admission brochure for detailed eligibility criteria."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "application_deadline",
+                        "patterns": [
+                        "What is the deadline for submitting the application?",
+                        "When is the last date to apply?",
+                        "Can you tell me about the application deadline?",
+                        "When should I submit my application?"
+                        ],
+                        "responses": [
+                        "The application deadline may vary depending on the college and the program you are applying to. It is essential to check the college's official website or admission brochure for the specific application deadline. Missing the deadline may result in your application not being considered for the current intake, so it's important to submit your application within the specified timeframe."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "leadership_development_programs",
+                        "patterns": [
+                        "Are there any leadership development programs or initiatives on campus?"
+                        ],
+                        "responses": [
+                        "Yes, colleges often have leadership development programs or initiatives to nurture leadership skills among students. These programs may include workshops, seminars, mentorship opportunities, and participation in student government or clubs. Such initiatives aim to enhance students' leadership abilities, decision-making skills, and overall personal development."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "sports_facilities",
+                        "patterns": [
+                        "What kind of sports facilities are available on campus?"
+                        ],
+                        "responses": [
+                        "The college campus is likely to have sports facilities such as a sports complex, playgrounds, indoor courts, gymnasiums, and training facilities for various sports. These facilities may support sports like cricket, football, basketball, tennis, athletics, swimming, and more. Students can engage in sports activities, join sports teams or clubs, and participate in intercollegiate competitions."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "clubs_societies",
+                        "patterns": [
+                        "Are there any clubs or societies for students to explore their interests?"
+                        ],
+                        "responses": [
+                        "Yes, colleges often have a wide range of clubs and societies catering to different interests and hobbies. These may include cultural clubs, music bands, dance groups, literary societies, photography clubs, technical clubs, and social service organizations. Joining such clubs provides students with opportunities to pursue their passions, meet like-minded individuals, and engage in extracurricular activities."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "entrepreneurship_innovation",
+                        "patterns": [
+                        "How does the college support entrepreneurship and innovation?"
+                        ],
+                        "responses": [
+                        "The college may have entrepreneurship development cells or incubation centers that provide support and resources to students interested in entrepreneurship and innovation. These initiatives offer mentorship, guidance, funding opportunities, and access to networks to help students start their own ventures. Entrepreneurship-related workshops, seminars, and business plan competitions may also be organized."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "international_student_exchange",
+                        "patterns": [
+                        "Are there opportunities for international student exchange programs?"
+                        ],
+                        "responses": [
+                        "Yes, the college may have tie-ups with foreign universities for student exchange programs. These programs allow students to study abroad for a semester or a year, gaining exposure to different educational systems and cultures. Students can inquire with the college's international relations office or refer to their official website for more information on international exchange opportunities."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "research_academic_collaborations",
+                        "patterns": [
+                        "What are the initiatives to promote research and academic collaborations?"
+                        ],
+                        "responses": [
+                        "The college may have research centers, collaborations with industry partners, and tie-ups with other academic institutions to foster research and academic collaborations. These initiatives can include research grants, joint research projects, faculty exchange programs, conferences, and seminars. Students interested in research can explore the college's research facilities and opportunities."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "application_status",
+                        "patterns": [
+                        "How can I check my application status?"
+                        ],
+                        "responses": [
+                        "You can typically check your application status by logging into the college's admission portal or by contacting the admission office directly. They will provide you with the necessary information and updates regarding your application."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "scholarships",
+                        "patterns": [
+                        "Are there any scholarships available for students?"
+                        ],
+                        "responses": [
+                        "Yes, colleges often offer scholarships or financial aid programs to support deserving students. These scholarships may be merit-based, need-based, or specific to certain categories such as sports, arts, or underrepresented groups. You can inquire with the college's scholarship office or refer to their official website for details on available scholarships and the application process."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "financial_aid_application",
+                        "patterns": [
+                        "What is the process for applying for financial aid?"
+                        ],
+                        "responses": [
+                        "The process for applying for financial aid may vary from college to college. Typically, it involves submitting a financial aid application form, along with supporting documents such as income statements or tax returns. The college's financial aid office can guide you through the application process and provide you with the necessary forms and instructions."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "credit_transfer",
+                        "patterns": [
+                        "Can I transfer credits from another college?"
+                        ],
+                        "responses": [
+                        "Some colleges allow the transfer of credits from other accredited institutions. The specific transfer credit policy and criteria can vary. You will need to contact the college's admission office or refer to their official website to understand the transfer credit process, requirements, and any limitations on the number of credits that can be transferred."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "on_campus_accommodation",
+                        "patterns": [
+                        "What are the options for on-campus accommodation?"
+                        ],
+                        "responses": [
+                        "Colleges often provide on-campus accommodation facilities such as hostels or dormitories for students. These facilities may vary in terms of room types, amenities, and occupancy. You can inquire with the college's accommodation office or refer to their official website for information on the available options, fees, and the application process."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "part_time_jobs",
+                        "patterns": [
+                        "Are there part-time job opportunities for students on campus?"
+                        ],
+                        "responses": [
+                        "Yes, many colleges offer part-time job opportunities on campus. These jobs can include working at the library, cafeteria, administrative offices, research projects, or as teaching assistants. The college's student employment office or career services center can provide you with information on available part-time job opportunities and the application process."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "extracurricular_clubs_activities",
+                        "patterns": [
+                        "What are the extracurricular clubs or activities available for students?"
+                        ],
+                        "responses": [
+                        "Colleges offer a wide range of extracurricular clubs and activities to cater to different interests. These can include sports clubs, cultural clubs, literary societies, debate teams, art clubs, environmental clubs, coding clubs, and more. You can explore the college's website or attend orientation events to learn more about the extracurricular options available to students."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "career_counseling_center",
+                        "patterns": [
+                        "Is there a dedicated career counseling center on campus?"
+                        ],
+                        "responses": [
+                        "Yes, many colleges have dedicated career counseling centers to assist students with career planning, resume building, interview preparation, and job search strategies. These centers provide guidance, resources, and workshops to help students make informed career decisions and enhance their employability skills."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "cultural_exchange_programs",
+                        "patterns": [
+                        "Are there opportunities for international students to get involved in cultural exchange programs?"
+                        ],
+                        "responses": [
+                        "Yes, colleges often have cultural exchange programs specifically designed for international students. These programs may include intercultural events, language exchange programs, buddy systems, and international student associations. It's a great way for international students to connect with local students, learn about the local culture, and participate in cross-cultural activities."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "campus_safety_measures",
+                        "patterns": [
+                        "What are the campus safety measures in place?"
+                        ],
+                        "responses": [
+                        "Colleges prioritize the safety and well-being of their students. They often have security measures in place, such as campus security personnel, CCTV surveillance, emergency response systems, and safety awareness campaigns. Additionally, colleges may have policies and procedures to address issues like harassment, discrimination, or any form of misconduct. You can inquire with the college's security office or refer to their official website for detailed information on campus safety measures."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "diversity_inclusivity",
+                        "patterns": [
+                        "How does the college promote diversity and inclusivity?"
+                        ],
+                        "responses": [
+                        "Colleges strive to create a diverse and inclusive campus environment. They may have initiatives such as cultural festivals, guest lectures on diversity topics, student organizations promoting inclusivity, and policies that support equal opportunities for all students. You can explore the college's website or reach out to the diversity and inclusion office for more information on their efforts in promoting diversity and inclusivity."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "community_service_volunteer_work",
+                        "patterns": [
+                        "Are there opportunities for students to engage in community service or volunteer work?"
+                        ],
+                        "responses": [
+                        "Yes, colleges often encourage students to participate in community service and volunteer work. They may have tie-ups with local non-profit organizations or run their own community service programs. These opportunities allow students to give back to the community, develop leadership skills, and make a positive impact. You can inquire with the college's community engagement office or refer to their official website for information on available community service opportunities."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "support_students_with_disabilities",
+                        "patterns": [
+                        "How does the college support students with disabilities?"
+                        ],
+                        "responses": [
+                        "Colleges have support services in place to assist students with disabilities. These services may include accessible accommodations, assistive technologies, specialized counseling, and academic support. The college's disability support office can provide information on the available resources, accommodations, and the process for requesting support."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "study_abroad_programs",
+                        "patterns": [
+                        "Can students participate in study abroad programs?"
+                        ],
+                        "responses": [
+                        "Many colleges offer study abroad programs that allow students to spend a semester or a year studying in a different country. These programs provide opportunities for cultural immersion, academic enrichment, and personal growth. You can inquire with the college's international relations office or refer to their official website for information on study abroad programs, eligibility criteria, and application procedures."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "academic_support_services",
+                        "patterns": [
+                        "Are there academic support services available for students?"
+                        ],
+                        "responses": [
+                        "Yes, colleges typically provide academic support services to assist students in their studies. These services may include tutoring programs, study skills workshops, writing centers, and academic advising. If you need help with your coursework or want guidance on academic matters, you can reach out to the college's academic support center or refer to their official website for information on the available resources."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "student_portal",
+                        "patterns": [
+                        "How can I access the student portal?"
+                        ],
+                        "responses": [
+                        "To access the student portal, you will usually need to visit the college's website and look for a link or tab related to student resources or student portal. From there, you can log in using your student credentials, such as your username and password. If you're having trouble accessing the student portal, you can reach out to the college's IT department or the help desk for assistance."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "thank_you",
+                        "patterns": [
+                        "Thank you",
+                        "Thanks",
+                        "Appreciate it",
+                        "Thank you so much"
+                        ],
+                        "responses": [
+                        "You're welcome!",
+                        "No problem, happy to help!",
+                        "You're welcome! If you have any more questions, feel free to ask."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "goodbye",
+                        "patterns": [
+                        "Goodbye",
+                        "Bye",
+                        "See you later",
+                        "Take care",
+                        "Have a great day"
+                        ],
+                        "responses": [
+                        "Goodbye! Take care!",
+                        "Have a great day!",
+                        "Goodbye! If you need any further assistance, feel free to ask."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "student_grievances",
+                        "patterns": [
+                        "How are student grievances or concerns addressed by the college?"
+                        ],
+                        "responses": [
+                        "Colleges have mechanisms in place to address student grievances and concerns. They may have student affairs offices, ombudsman services, or student government bodies that work towards addressing and resolving issues raised by students. Students can reach out to these offices or refer to the college's official website for information on the process for raising concerns and seeking assistance."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "transportation_options",
+                        "patterns": [
+                        "What are the options for transportation to and from the college campus?"
+                        ],
+                        "responses": [
+                        "Colleges are often well-connected to transportation networks. They may have shuttle services, public transportation access, or partnerships with transportation providers. You can inquire with the college's transportation office or refer to their official website for information on available transportation options and routes."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "environmental_sustainability_initiatives",
+                        "patterns": [
+                        "How can students get involved in environmental sustainability initiatives?"
+                        ],
+                        "responses": [
+                        "Many colleges have sustainability initiatives and programs in place to promote environmental awareness and action. Students can participate in recycling programs, join environmental clubs, attend sustainability workshops, or get involved in campus sustainability projects. You can inquire with the college's sustainability office or refer to their official website for information on how to engage in environmental sustainability initiatives."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "publishing_research_creative_work",
+                        "patterns": [
+                        "Are there opportunities for students to publish their research or creative work?"
+                        ],
+                        "responses": [
+                        "Yes, colleges often have platforms for students to publish their research papers, articles, or creative works. These can include undergraduate research journals, literary magazines, or online platforms. Students can seek guidance from faculty members or reach out to the college's publication office to learn more about the opportunities to showcase their work."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "student_mental_health_support",
+                        "patterns": [
+                        "How does the college support student mental health and well-being?"
+                        ],
+                        "responses": [
+                        "Colleges prioritize student mental health and well-being. They may have counseling services, mental health workshops, support groups, or wellness programs available to students. Additionally, colleges may have partnerships with local healthcare providers or offer referrals for specialized mental health services. You can inquire with the college's counseling center or refer to their official website for information on the support available for student mental health."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "healthy_dining_options",
+                        "patterns": [
+                        "What are the options for healthy dining on campus?"
+                        ],
+                        "responses": [
+                        "Colleges often provide various dining options to cater to different dietary preferences and requirements. These can include cafeterias, food courts, vegetarian/vegan options, and special menus for students with specific dietary needs. You can explore the college's dining services or refer to their official website for information on healthy dining choices and meal plan options."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "sports_facilities_intramural_sports",
+                        "patterns": [
+                        "Can students access sports facilities and participate in intramural sports?"
+                        ],
+                        "responses": [
+                        "Yes, colleges usually have sports facilities that students can access. They may have gyms, sports fields, swimming pools, and courts for different sports activities. Students can participate in intramural sports leagues or join sports clubs to engage in friendly competitions and stay active. You can inquire with the college's sports department or refer to their official website for information on available sports facilities and intramural sports opportunities."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "internship_opportunities",
+                        "patterns": [
+                        "What are the internship opportunities available for students?"
+                        ],
+                        "responses": [
+                        "Colleges often have partnerships with companies and organizations to provide internship opportunities for students. These internships can offer valuable work experience and help students build professional networks. The college's career services center or internship office can provide information on available internship programs, application process, and any specific eligibility criteria."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "career_development_workshops",
+                        "patterns": [
+                        "Are there any workshops or seminars on career development and job search skills?"
+                        ],
+                        "responses": [
+                        "Yes, colleges often organize workshops, seminars, and guest lectures on career development, job search skills, resume building, and interview preparation. These events provide students with valuable insights and guidance to enhance their employability. You can check the college's event calendar, career services center, or student services office for information on upcoming career development workshops."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "student_health_insurance",
+                        "patterns": [
+                        "What are the options for student health insurance coverage?"
+                        ],
+                        "responses": [
+                        "Colleges often offer student health insurance plans or provide information on available health insurance options. These plans can cover medical expenses, prescriptions, and emergency care. You can inquire with the college's health services office or refer to their official website for information on student health insurance coverage options and the enrollment process."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "academic_support_services",
+                        "patterns": [
+                        "Can students access academic support services such as tutoring or writing centers?"
+                        ],
+                        "responses": [
+                        "Yes, colleges often have academic support services to assist students in areas such as tutoring, writing assistance, study skills development, or academic coaching. These services can help students excel academically and enhance their learning strategies. You can inquire with the college's academic support center or refer to their official website for information on available academic support resources."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "research_opportunities",
+                        "patterns": [
+                        "How are the college's research opportunities for undergraduate students?"
+                        ],
+                        "responses": [
+                        "Colleges may offer research opportunities for undergraduate students to collaborate with faculty members or participate in research projects. These opportunities can provide valuable hands-on experience and allow students to contribute to ongoing research in their field of interest."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "viteee_schedule",
+                        "patterns": [
+                        "Where can I find the complete schedule of VITEEE 2022?"
+                        ],
+                        "responses": [
+                        "Vellore Institute of Technology has released the VITEEE 2022 exam dates at the official website vit.ac.in. VITEEE 2022 will be conducted from June 17 to 25 in online mode."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "viteee_age_limit",
+                        "patterns": [
+                        "Is there any age limit for appearing in VITEEE 2022?"
+                        ],
+                        "responses": [
+                        "Candidates born on or after July 1, 2000 shall be eligible to appear in the VITEEE 2022 exam."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "viteee_exam_date",
+                        "patterns": [
+                        "When will VITEEE 2022 be conducted?"
+                        ],
+                        "responses": [
+                        "Vellore Institute of Technology will conduct the VITEEE 2022 from June 17 to 25."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "viteee_admissions_without_entrance",
+                        "patterns": [
+                        "If the VIT entrance was cancelled, then on what basis were engineering admissions done in the last year?"
+                        ],
+                        "responses": [
+                        "The authorities offered B.Tech admissions based on merit in specific subjects in the qualifying examination (class 12 or intermediate, as the case may be)."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "viteee_application_mode",
+                        "patterns": [
+                        "In what mode can I apply for VITEEE 2022?"
+                        ],
+                        "responses": [
+                        "VIT has released the application form for VITEEE 2022 in online mode."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "viteee_slot_booking",
+                        "patterns": [
+                        "How do I select the date and time to appear in the entrance?"
+                        ],
+                        "responses": [
+                        "The authorities allow registered candidates to book slots for VITEEE 2022 within a specified time. As the exam is conducted on multiple days in different slots, choices have to be made as per preference."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "viteee_exam_documents",
+                        "patterns": [
+                        "What documents are a must to be taken at the exam centres?"
+                        ],
+                        "responses": [
+                        "Candidates need to carry the VITEEE 2022 admit card along with a valid photo identification proof while appearing in the exam."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "viteee_answer_keys",
+                        "patterns": [
+                        "Where can I find the VITEEE answer keys?"
+                        ],
+                        "responses": [
+                        "Vellore Institute of Technology never releases the official answer key for VITEEE."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "viteee_accept_jee_main",
+                        "patterns": [
+                        "Does VIT accept JEE Main score?"
+                        ],
+                        "responses": [
+                        "No, the authorities will not consider JEE Main scores this year."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "viteee_direct_admissions",
+                        "patterns": [
+                        "Is there any provision of direct admissions into engineering at VITs without appearing in VITEEE?"
+                        ],
+                        "responses": [
+                        "No, candidates aspiring for engineering at Vellore Institute of Technology have to appear in the entrance exam for B.Tech admissions."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "viteee_new_section",
+                        "patterns": [
+                        "Is there any new section introduced in VITEEE 2022?"
+                        ],
+                        "responses": [
+                        "No, there is no new section introduced in VITEEE 2022."
+                        ],
+                        "context_set": ""
+                        },
+                        {
+                        "tag": "viteee_physics_syllabus",
+                        "patterns": [
+                        "Where can I find the detailed syllabus for the Physics section of VITEEE 2022?"
+                        ],
+                        "responses": [
+                        "The detailed syllabus for the Physics section of VITEEE 2022 can be found on the official website of Vellore Institute of Technology."
+                        ],
+                        "context_set": ""
+                        }       
+
+      ]
+
+      
+}
+    
