@@ -9,7 +9,7 @@ import tensorflow as tf
 from tensorflow.keras import layers, models, regularizers
 
 nlp = English()
-tokenizer = nlp.Defaults.create_tokenizer(nlp)
+tokenizer = nlp.tokenizer
 
 PAD_Token = 0
 
