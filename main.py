@@ -9,6 +9,7 @@ import tensorflow as tf
 from tensorflow.keras import layers, models, regularizers
 from voc import voc
 import random
+from spacy.lang.en import English
 
 nlp = spacy.load("en_core_web_sm")
 tokenizer = nlp.tokenizer
